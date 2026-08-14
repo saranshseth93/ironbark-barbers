@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "provider": null,
+  "resolvedAt": null,
+  "slots": {
+    "hero": {
+      "provider": "placeholder",
+      "id": "hero",
+      "creator": "Generated placeholder",
+      "creatorUrl": "",
+      "licence": "n/a",
+      "licenceUrl": "",
+      "sourcePage": "",
+      "downloadUrl": "",
+      "placeholder": true,
+      "aspect": 0.82,
+      "derivatives": [
+        {
+          "width": 480,
+          "height": 585
+        },
+        {
+          "width": 760,
+          "height": 927
+        },
+        {
+          "width": 1100,
+          "height": 1341
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAgCdASoUABgAPt1orFCopaQiqAgBEBuJZwAAQzwvcAD+7lV4YhW4ppOAldLvMCrR8AAA"
+    },
+    "cut": {
+      "provider": "placeholder",
+      "id": "cut",
+      "creator": "Generated placeholder",
+      "creatorUrl": "",
+      "licence": "n/a",
+      "licenceUrl": "",
+      "sourcePage": "",
+      "downloadUrl": "",
+      "placeholder": true,
+      "aspect": 1.4,
+      "derivatives": [
+        {
+          "width": 480,
+          "height": 343
+        },
+        {
+          "width": 800,
+          "height": 571
+        },
+        {
+          "width": 1200,
+          "height": 857
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAgCdASoUAA4APt1apky3JSOisAgC4BuJZwAAfqoAAP7uHyA3/y7vV7BghNqHkQAAAA=="
+    },
+    "shave": {
+      "provider": "placeholder",
+      "id": "shave",
+      "creator": "Generated placeholder",
+      "creatorUrl": "",
+      "licence": "n/a",
+      "licenceUrl": "",
+      "sourcePage": "",
+      "downloadUrl": "",
+      "placeholder": true,
+      "aspect": 1.4,
+      "derivatives": [
+        {
+          "width": 480,
+          "height": 343
+        },
+        {
+          "width": 800,
+          "height": 571
+        },
+        {
+          "width": 1200,
+          "height": 857
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAgCdASoUAA4APt1apkyopSOisAgBEBuJZwDDNC5JAAD+7oZl82eaoBKlo/RAAAA="
+    },
+    "tools": {
+      "provider": "placeholder",
+      "id": "tools",
+      "creator": "Generated placeholder",
+      "creatorUrl": "",
+      "licence": "n/a",
+      "licenceUrl": "",
+      "sourcePage": "",
+      "downloadUrl": "",
+      "placeholder": true,
+      "aspect": 2.2,
+      "derivatives": [
+        {
+          "width": 768,
+          "height": 349
+        },
+        {
+          "width": 1280,
+          "height": 582
+        },
+        {
+          "width": 1920,
+          "height": 873
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAgCdASoUAAkAPt1apkyopSOiMAgBEBuJZwAAfj4AAP7voqSpyV6svNp8gAAA"
+    },
+    "shopfront": {
+      "provider": "placeholder",
+      "id": "shopfront",
+      "creator": "Generated placeholder",
+      "creatorUrl": "",
+      "licence": "n/a",
+      "licenceUrl": "",
+      "sourcePage": "",
+      "downloadUrl": "",
+      "placeholder": true,
+      "aspect": 1.5,
+      "derivatives": [
+        {
+          "width": 560,
+          "height": 373
+        },
+        {
+          "width": 900,
+          "height": 600
+        },
+        {
+          "width": 1400,
+          "height": 933
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAgCdASoUAA0APt1cpkyopSOiMAgBEBuJZQDE2DDWAAD+7uJ4Ng1PRBYD7uYAAAA="
+    }
+  }
+}

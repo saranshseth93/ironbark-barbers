@@ -1,0 +1,83 @@
+@import 'tailwindcss';
+
+/*
+ * Ironbark Barbers — deep green, brass and cream.
+ *
+ * A traditional barbershop palette without the red-and-white pole cliché:
+ * near-black pine for the room, brass for anything that matters, copper as a
+ * second accent. Warm, dim and a bit clubby.
+ */
+@theme {
+  --color-pine: #0e1c17;
+  --color-moss: #14261e;
+  --color-fern: #1c3527;
+  --color-cream: #f4eee2;
+  --color-linen: #c8bfad;
+  --color-smoke: #8a8373;
+  --color-brass: #c9a227;
+  --color-copper: #b4623a;
+  --color-line: #294036;
+
+  --font-family-display: var(--font-fraunces);
+  --font-family-body: var(--font-manrope);
+  --font-family-mono: var(--font-plex-mono);
+}
+
+/* Barber-stripe rule, in brass and copper rather than the usual red. */
+.stripe-rule {
+  height: 5px;
+  background-image: repeating-linear-gradient(
+    -60deg,
+    var(--color-brass) 0 8px,
+    var(--color-pine) 8px 16px,
+    var(--color-copper) 16px 24px,
+    var(--color-pine) 24px 32px
+  );
+}
+
+@keyframes ib-rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/*
+ * Reveal-on-scroll. The hidden state is scoped to `.js-reveal`, set on <html>
+ * by an inline script before first paint, so nothing is ever invisible if that
+ * script does not run.
+ */
+.js-reveal .reveal {
+  opacity: 0;
+}
+
+.js-reveal .reveal.is-visible {
+  animation: ib-rise 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js-reveal .reveal,
+  .js-reveal .reveal.is-visible {
+    opacity: 1;
+    animation: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+::selection {
+  background: var(--color-brass);
+  color: var(--color-pine);
+}
