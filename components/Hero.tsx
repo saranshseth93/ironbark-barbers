@@ -48,13 +48,13 @@ export function Hero() {
           </div>
 
           <div className="relative">
-            <div className="border border-line">
+            <div className="parallax border border-line">
               <Photo
                 slot="hero"
                 alt="The interior of a barbershop"
-                sizes="(min-width: 1024px) 38vw, 100vw"
+                sizes="(min-width: 1024px) 44vw, 116vw"
                 priority
-                className="w-full h-auto block"
+                className="parallax-img w-full h-auto block"
               />
             </div>
             <div className="stripe-rule mt-0" />

@@ -1,19 +1,22 @@
 {
   "version": 1,
-  "provider": null,
-  "resolvedAt": null,
+  "provider": "pexels",
+  "resolvedAt": "2026-08-15T03:34:28.049Z",
   "slots": {
     "hero": {
-      "provider": "placeholder",
-      "id": "hero",
-      "creator": "Generated placeholder",
-      "creatorUrl": "",
-      "licence": "n/a",
-      "licenceUrl": "",
-      "sourcePage": "",
-      "downloadUrl": "",
-      "placeholder": true,
-      "aspect": 0.82,
+      "provider": "pexels",
+      "id": "18702143",
+      "downloadUrl": "https://images.pexels.com/photos/18702143/pexels-photo-18702143.jpeg",
+      "sourcePage": "https://www.pexels.com/photo/leather-chair-in-hair-salon-18702143/",
+      "creator": "Marcelo Verfe",
+      "creatorUrl": "https://www.pexels.com/@marceloverfe",
+      "licence": "Pexels License",
+      "licenceUrl": "https://www.pexels.com/license/",
+      "alt": "Stylish leather chair in a contemporary barbershop setting with tools and mirrors.",
+      "width": 3840,
+      "height": 5760,
+      "fingerprint": "e91fd60b923e6f61",
+      "query": "barbershop interior barber chair",
       "derivatives": [
         {
           "width": 480,
@@ -28,19 +31,23 @@
           "height": 1341
         }
       ],
-      "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAgCdASoUABgAPt1orFCopaQiqAgBEBuJZwAAQzwvcAD+7lV4YhW4ppOAldLvMCrR8AAA"
+      "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABwBQCdASoUAB4APt1gqU+opSOiKAqpEBuJYgDJEGlgNRYSXjkJDpDA2EDrYQYQXaK62yEAAPffnsfkLQ2kMTKDRe5lIyiuYU3VCbswWGkqgvKKOm5p82TzZYz5+trmkpS7BkWgIXceU103Fbwqx3gTf7u5yIq43hlPncjnR0gU08LSjdbhDOcscAA=",
+      "aspect": 0.82
     },
     "cut": {
-      "provider": "placeholder",
-      "id": "cut",
-      "creator": "Generated placeholder",
-      "creatorUrl": "",
-      "licence": "n/a",
-      "licenceUrl": "",
-      "sourcePage": "",
-      "downloadUrl": "",
-      "placeholder": true,
-      "aspect": 1.4,
+      "provider": "pexels",
+      "id": "33448216",
+      "downloadUrl": "https://images.pexels.com/photos/33448216/pexels-photo-33448216.jpeg",
+      "sourcePage": "https://www.pexels.com/photo/close-up-of-haircut-with-electric-clippers-33448216/",
+      "creator": "Kerim Isazade",
+      "creatorUrl": "https://www.pexels.com/@kerim-isazade-2148708032",
+      "licence": "Pexels License",
+      "licenceUrl": "https://www.pexels.com/license/",
+      "alt": "Detailed view of a haircut in progress with electric clippers and stylist's hand.",
+      "width": 5272,
+      "height": 3515,
+      "fingerprint": "bfa9a36cec4ae966",
+      "query": "barber cutting hair clippers",
       "derivatives": [
         {
           "width": 480,
@@ -55,19 +62,23 @@
           "height": 857
         }
       ],
-      "lqip": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAgCdASoUAA4APt1apky3JSOisAgC4BuJZwAAfqoAAP7uHyA3/y7vV7BghNqHkQAAAA=="
+      "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoUAA0APt1cpkyopSOiMAgBEBuJZQDCgCPqJ6UooSrb4GAA/CFfMH2dkkvNvjjhQ7BKxNvPuc4wCc3dMBti4twlF+Ag0AAA",
+      "aspect": 1.4
     },
     "shave": {
-      "provider": "placeholder",
-      "id": "shave",
-      "creator": "Generated placeholder",
-      "creatorUrl": "",
-      "licence": "n/a",
-      "licenceUrl": "",
-      "sourcePage": "",
-      "downloadUrl": "",
-      "placeholder": true,
-      "aspect": 1.4,
+      "provider": "pexels",
+      "id": "7447140",
+      "downloadUrl": "https://images.pexels.com/photos/7447140/pexels-photo-7447140.jpeg",
+      "sourcePage": "https://www.pexels.com/photo/close-up-of-shaving-beard-7447140/",
+      "creator": "Gustavo Fring",
+      "creatorUrl": "https://www.pexels.com/@gustavo-fring",
+      "licence": "Pexels License",
+      "licenceUrl": "https://www.pexels.com/license/",
+      "alt": "Barber skillfully using a razor to shave a client's beard with precision and care.",
+      "width": 3936,
+      "height": 2624,
+      "fingerprint": "506164d8dde253b5",
+      "query": "straight razor shave",
       "derivatives": [
         {
           "width": 480,
@@ -82,19 +93,23 @@
           "height": 857
         }
       ],
-      "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAgCdASoUAA4APt1apkyopSOisAgBEBuJZwDDNC5JAAD+7oZl82eaoBKlo/RAAAA="
+      "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwBACdASoUAA0APt1cpkyopSOiMAgBEBuJQBYhgwBXfQaj0tsYqqdBwAAA/unSJkDIDnGtfj/Zv4bB1FOlWTAo/vCmihjjc7nTX17Alc83a0hl/wbXACaxXMAAAA==",
+      "aspect": 1.4
     },
     "tools": {
-      "provider": "placeholder",
-      "id": "tools",
-      "creator": "Generated placeholder",
-      "creatorUrl": "",
-      "licence": "n/a",
-      "licenceUrl": "",
-      "sourcePage": "",
-      "downloadUrl": "",
-      "placeholder": true,
-      "aspect": 2.2,
+      "provider": "pexels",
+      "id": "10517483",
+      "downloadUrl": "https://images.pexels.com/photos/10517483/pexels-photo-10517483.jpeg",
+      "sourcePage": "https://www.pexels.com/photo/hairdresser-tools-on-table-10517483/",
+      "creator": "Alex Urezkov",
+      "creatorUrl": "https://www.pexels.com/@instasky",
+      "licence": "Pexels License",
+      "licenceUrl": "https://www.pexels.com/license/",
+      "alt": "Professional hairdressing tools meticulously arranged in a flat lay, showcasing combs, clippers, scissors, and more.",
+      "width": 5858,
+      "height": 2822,
+      "fingerprint": "0d1c9544788de1cf",
+      "query": "barber tools scissors comb clippers",
       "derivatives": [
         {
           "width": 768,
@@ -109,19 +124,23 @@
           "height": 873
         }
       ],
-      "lqip": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAgCdASoUAAkAPt1apkyopSOiMAgBEBuJZwAAfj4AAP7voqSpyV6svNp8gAAA"
+      "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAAoAPt1cpkyopSOiMAgBEBuJZwBUfobKURgepYy/AumAAP7l621sMu7ka4MlXMgkyMxSj1iWhQpZ8ngNr897ER3rjOZtQrXAAA==",
+      "aspect": 2.2
     },
     "shopfront": {
-      "provider": "placeholder",
-      "id": "shopfront",
-      "creator": "Generated placeholder",
-      "creatorUrl": "",
-      "licence": "n/a",
-      "licenceUrl": "",
-      "sourcePage": "",
-      "downloadUrl": "",
-      "placeholder": true,
-      "aspect": 1.5,
+      "provider": "pexels",
+      "id": "37514899",
+      "downloadUrl": "https://images.pexels.com/photos/37514899/pexels-photo-37514899.jpeg",
+      "sourcePage": "https://www.pexels.com/photo/charming-barber-shop-facade-in-barcelona-37514899/",
+      "creator": "Ezgi Kaya",
+      "creatorUrl": "https://www.pexels.com/@ezgi-kaya-498261122",
+      "licence": "Pexels License",
+      "licenceUrl": "https://www.pexels.com/license/",
+      "alt": "A vintage-style barber shop entrance in Barcelona, featuring classic signage and decor.",
+      "width": 4160,
+      "height": 2773,
+      "fingerprint": "46be9f784907889c",
+      "query": "barber shop exterior",
       "derivatives": [
         {
           "width": 560,
@@ -136,7 +155,8 @@
           "height": 933
         }
       ],
-      "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAgCdASoUAA0APt1cpkyopSOiMAgBEBuJZQDE2DDWAAD+7uJ4Ng1PRBYD7uYAAAA="
+      "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAwCdASoUAA0APt1gp00opaOiMAgBEBuJYwCdAB6EC8y7/zqTNKeAAMq1S0MS3ib1LCv3vXgIt6spRK7FkzV1Syr2+jPhtgAAAA==",
+      "aspect": 1.5
     }
   }
 }

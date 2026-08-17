@@ -29,7 +29,10 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en-AU">
+    // suppressHydrationWarning: the inline script below adds `js-reveal` to
+    // <html> before React hydrates, so the client element legitimately carries
+    // a class the server markup does not. Scoped to this element only.
+    <html lang="en-AU" suppressHydrationWarning>
       <head>
         {/*
           Opts into the hidden-until-revealed state before first paint. If this
@@ -42,7 +45,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${fraunces.variable} ${manrope.variable} ${plexMono.variable} bg-pine text-cream font-body antialiased`}
+        className={`${fraunces.variable} ${manrope.variable} ${plexMono.variable} grain bg-pine text-cream font-body antialiased`}
       >
         <a
           href="#main"

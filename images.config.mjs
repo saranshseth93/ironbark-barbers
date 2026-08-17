@@ -40,7 +40,8 @@ export const slots = [
   },
   {
     id: 'shave',
-    query: 'straight razor shave barber towel',
+    // The longer original matched gloved facial grooming rather than a shave.
+    query: 'straight razor shave',
     usage: 'Craft section',
     aspect: 1.4,
     widths: [480, 800, 1200],
@@ -60,7 +61,9 @@ export const slots = [
   },
   {
     id: 'shopfront',
-    query: 'barbershop shopfront window street',
+    // 'shopfront window street' pinned a Dublin storefront with a real trading
+    // name across the front of a supposedly Collingwood shop. Kept generic.
+    query: 'barber shop exterior',
     usage: 'Find us section',
     aspect: 1.5,
     widths: [560, 900, 1400],

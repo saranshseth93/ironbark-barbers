@@ -37,15 +37,22 @@ export function Craft() {
 
             <dl className="mt-8">
               {craft.map((item, i) => (
-                <Reveal key={item.title} delay={i * 0.08}>
-                  <div className="py-5 border-b border-line">
-                    <dt className="font-display font-bold text-cream text-lg">
-                      {item.title}
-                    </dt>
-                    <dd className="font-body text-sm text-linen/80 leading-relaxed mt-2">
-                      {item.body}
-                    </dd>
-                  </div>
+                // Reveal carries the row styling rather than wrapping another
+                // div. A dl may group a dt/dd pair inside one div, but not two
+                // nested ones, and Reveal renders a div of its own — so this
+                // was dl > div > div > dt, which invalidates the definition
+                // list and malforms the accessibility tree with it.
+                <Reveal
+                  key={item.title}
+                  delay={i * 0.08}
+                  className="py-5 border-b border-line"
+                >
+                  <dt className="font-display font-bold text-cream text-lg">
+                    {item.title}
+                  </dt>
+                  <dd className="font-body text-sm text-linen/80 leading-relaxed mt-2">
+                    {item.body}
+                  </dd>
                 </Reveal>
               ))}
             </dl>
