@@ -1,7 +1,7 @@
 {
   "version": 1,
   "provider": "openverse",
-  "resolvedAt": "2026-08-17T12:01:55.049Z",
+  "resolvedAt": "2026-08-17T13:37:07.326Z",
   "slots": {
     "hero": {
       "provider": "pexels",
