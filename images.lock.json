@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "provider": "pexels",
-  "resolvedAt": "2026-08-15T03:34:28.049Z",
+  "provider": "openverse",
+  "resolvedAt": "2026-08-17T09:02:51.868Z",
   "slots": {
     "hero": {
       "provider": "pexels",
@@ -62,7 +62,7 @@
           "height": 857
         }
       ],
-      "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoUAA0APt1cpkyopSOiMAgBEBuJZQDCgCPqJ6UooSrb4GAA/CFfMH2dkkvNvjjhQ7BKxNvPuc4wCc3dMBti4twlF+Ag0AAA",
+      "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoUAA0APt1cp00opSOiMAgBEBuJZQDCgCPqJ6UooSrb4GAA/CFfMH2dkkvNvjjhQ7BKxNvPuc4wCc3dMBti4twlF+Ag0AAA",
       "aspect": 1.4
     },
     "shave": {
