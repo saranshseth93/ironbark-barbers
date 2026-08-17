@@ -12,7 +12,7 @@ import { craft } from '@/lib/constants'
 export function Craft() {
   return (
     <section id="craft" className="bg-moss border-y border-line">
-      <div className="mx-auto max-w-7xl px-5 py-20 lg:py-28">
+      <div className="mx-auto max-w-5xl px-5 py-24 lg:py-36">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <Reveal>
             <div className="border border-line">

@@ -3,7 +3,7 @@ import { specNotice } from '@/lib/constants'
 export function SpecNoticeBar() {
   return (
     <div className="bg-brass text-pine">
-      <p className="mx-auto max-w-7xl px-5 py-2 font-mono text-[11px] tracking-wide text-center">
+      <p className="mx-auto max-w-5xl px-5 py-2 font-mono text-[11px] tracking-wide text-center">
         <span className="font-semibold uppercase">{specNotice.short}</span>
         <span className="hidden sm:inline">
           {' '}— a spec build by{' '}

@@ -8,7 +8,7 @@ export function Nav() {
 
   return (
     <header className="sticky top-0 z-40 bg-pine/92 backdrop-blur border-b border-line">
-      <div className="mx-auto max-w-7xl px-5 h-16 flex items-center justify-between gap-4">
+      <div className="mx-auto max-w-5xl px-5 h-16 flex items-center justify-between gap-4">
         <a href="#top" className="font-display font-black text-cream text-xl tracking-tight">
           {business.name}
           <span className="text-brass">.</span>

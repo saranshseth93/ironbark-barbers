@@ -5,7 +5,7 @@ import { serviceGroups } from '@/lib/constants'
 export function Prices() {
   return (
     <section id="prices" className="bg-moss border-y border-line">
-      <div className="mx-auto max-w-7xl px-5 py-20 lg:py-28">
+      <div className="mx-auto max-w-5xl px-5 py-24 lg:py-36">
         <div className="grid lg:grid-cols-[1fr_1.6fr] gap-12 lg:gap-16">
           <div className="lg:sticky lg:top-8 lg:self-start">
             <Reveal>

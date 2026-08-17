@@ -50,7 +50,7 @@ export function Booking() {
         <div className="absolute inset-0 bg-gradient-to-b from-pine via-pine/90 to-pine" />
       </div>
 
-      <div className="relative mx-auto max-w-4xl px-5 py-20 lg:py-28">
+      <div className="relative mx-auto max-w-4xl px-5 py-24 lg:py-36">
         <div className="text-center">
           <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-brass">
             Book a chair

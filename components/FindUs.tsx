@@ -5,7 +5,7 @@ import { business, hours } from '@/lib/constants'
 export function FindUs() {
   return (
     <section id="find" className="bg-moss border-t border-line">
-      <div className="mx-auto max-w-7xl px-5 py-20 lg:py-28 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <div className="mx-auto max-w-5xl px-5 py-24 lg:py-36 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
         <Reveal>
           <div className="border border-line">
             <Photo

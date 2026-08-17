@@ -5,7 +5,7 @@ import { faqs } from '@/lib/constants'
 export function Faq() {
   return (
     <section id="faq" className="bg-pine">
-      <div className="mx-auto max-w-3xl px-5 py-20 lg:py-28">
+      <div className="mx-auto max-w-3xl px-5 py-24 lg:py-36">
         <Reveal>
           <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-brass">
             Questions
@@ -15,28 +15,41 @@ export function Faq() {
           </h2>
         </Reveal>
 
-        <div className="mt-10 border-t border-line">
+        {/*
+          A numbered notice, not an accordion.
+
+          All three sibling demos had converged on the same <details> list, and
+          a barbershop is the wrong place for one anyway: six short answers on
+          a narrow measure read faster than six things to click. Numbered in
+          brass and hung off a hairline, the way a shop prints its house rules.
+        */}
+        <ol className="mt-12 space-y-10">
+          {/* Reveal sits inside the li and carries the grid: an ol may only
+              contain li, and Reveal renders a div of its own. */}
           {faqs.map((faq, i) => (
-            <Reveal key={faq.question} delay={Math.min(i, 4) * 0.05}>
-              <details className="group border-b border-line">
-                <summary className="flex items-start justify-between gap-6 py-5 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-                  <span className="font-display font-bold text-cream text-lg leading-snug group-hover:text-brass transition-colors">
+            <li key={faq.question}>
+              <Reveal
+                delay={Math.min(i, 4) * 0.05}
+                className="grid grid-cols-[2.5rem_1fr] gap-x-4 border-t border-line pt-6 sm:grid-cols-[3.5rem_1fr] sm:gap-x-6"
+              >
+                <span
+                  className="font-mono text-sm text-brass tabular-nums pt-1"
+                  aria-hidden="true"
+                >
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <div>
+                  <h3 className="font-display font-bold text-cream text-lg leading-snug">
                     {faq.question}
-                  </span>
-                  <span
-                    className="shrink-0 font-mono text-brass text-xl leading-none mt-1 transition-transform group-open:rotate-45"
-                    aria-hidden="true"
-                  >
-                    +
-                  </span>
-                </summary>
-                <p className="font-body text-linen/80 leading-relaxed pb-6 pr-10 -mt-1">
-                  {faq.answer}
-                </p>
-              </details>
-            </Reveal>
+                  </h3>
+                  <p className="font-body text-linen/80 leading-relaxed mt-2">
+                    {faq.answer}
+                  </p>
+                </div>
+              </Reveal>
+            </li>
           ))}
-        </div>
+        </ol>
       </div>
     </section>
   )

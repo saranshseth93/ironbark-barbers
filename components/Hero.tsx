@@ -6,7 +6,7 @@ export function Hero() {
 
   return (
     <section id="top" className="bg-pine">
-      <div className="mx-auto max-w-7xl px-5 pt-14 lg:pt-20 pb-16 lg:pb-24">
+      <div className="mx-auto max-w-5xl px-5 pt-14 lg:pt-20 pb-16 lg:pb-24">
         <div className="grid lg:grid-cols-[1.15fr_0.85fr] gap-10 lg:gap-16 items-center">
           <div>
             <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-brass">
